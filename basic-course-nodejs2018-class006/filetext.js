@@ -4,7 +4,7 @@ module.exports = {
      */
     
     incrementValues: function(list) {
-        const mapIncrement = val => Number(val) + 1;
+        const mapIncrement = val => `The number is: ${Number(val) + 1}`;
         return list.map(mapIncrement);
     },
     /**
